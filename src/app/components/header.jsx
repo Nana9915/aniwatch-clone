@@ -8,7 +8,8 @@ import { Twitter } from './twitterIcon';
 export const Header = () => {
     return (
         <header>
-            <div className="flex  bg-[#242428] py-[19px] w-[100%] h-[70px]  items-center">
+            <div className="flex  bg-[#242428] py-[19px] w-[100%] h-[70px]  items-center justify-between pl-[15px] pr-[15px]">
+                <div className='flex justify-around'>
                 <div className='flex gap-[19px]'>
                 <div>
                     <a href="#">
@@ -38,8 +39,9 @@ export const Header = () => {
                         <Twitter />
                     </a>
                 </div>
-                <div className='bg-[prime-color]'>
-                    login
+                </div>
+                <div className='bg-prime-color px-[16px] py-2 rounded cursor-pointer'>
+                    Login
                 </div>
             </div>
         </header>
