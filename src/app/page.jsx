@@ -8,7 +8,9 @@ export default function Home() {
       <div>
         <SwiperSlide />
       </div>
-
+      <div className=" flex justify-center mt-[30px]">
+        <Image width={728} height={90} src="https://via.placeholder.com/728x90" />
+      </div>
       </section>
     </main>
   );

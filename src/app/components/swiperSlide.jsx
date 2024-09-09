@@ -2,11 +2,11 @@ import Image from "next/image"
 
 export const SwiperSlide = () => {
     return (
-        <div className="flex">
-            <div>
-                <p className="text-prime-color leading-[23px] text-[18px] font-normal">#5 Spotlight</p>
-                <p className="text-white-color leading-[62px] text-[48px] font-bold">Pseudo Harem</p>
-                <div className="flex gap-[9px] items-center">
+        <div className="flex justify-end w-[1440px] mx-auto mt-[19px]">
+            <div className="absolute top-[270px] left-[350px] ...">
+                <p className="text-prime-color leading-[23px] text-[18px] font-normal mb-[19px]">#5 Spotlight</p>
+                <p className="text-white-color leading-[62px] text-[48px] font-bold mb-[24px]">Pseudo Harem</p>
+                <div className="flex gap-[9px] items-center mb-[24px]">
                 <div className="flex gap-[19px]">
                     <div className="flex items-center gap-1 text-white-color leading-[24px] text-[16px] font-[300]">
                         <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,15 +37,49 @@ export const SwiperSlide = () => {
                         </svg>
                         <p>9</p>
                     </div>
-                    <div className="bg-[#989898] px-[6px] py-1 rounded-r-lg  text-white-color">
+                    <div className="bg-[#FFFFFF1A] px-[6px] py-1 rounded-r-lg  text-white-color">
                         12
                     </div>
                 </div>
                 </div>
+                <div className="text-white-color leading-[24px] text-[15px] font-[300]">
+                    <p>Eiji Kitahama, a second year high school student, just wants to be popular. To help him realize this </p>
+                    <p>dream, Rin Nanakura, his junior in the drama club, uses her acting skills to create a harem of loving </p>
+                    <p>girls for him. Though the various "girls" all show fondness toward Eiji, the affection of the actress </p>
+                </div>
+                <div className="flex gap-[12px] mt-[30px] ">
+                <div className="inline-flex gap-2 bg-prime-color items-center py-[12px] px-[17px] rounded-[30px] border-[1px] border-prime-color ">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99999 0.251099C6.60443 0.251099 5.31258 0.599988 4.12443 1.29777C2.93777 1.99554 1.99554 2.93777 1.29777 4.12443C0.599988 5.31258 0.251099 6.60443 0.251099 7.99999C0.251099 9.39554 0.599988 10.6874 1.29777 11.8755C1.99554 13.0622 2.93777 14.0044 4.12443 14.7022C5.31258 15.4015 6.60443 15.7511 7.99999 15.7511C9.39554 15.7511 10.6874 15.4015 11.8755 14.7022C13.0622 14.0044 14.0044 13.0622 14.7022 11.8755C15.4015 10.6874 15.7511 9.39554 15.7511 7.99999C15.7511 6.60443 15.4015 5.31258 14.7022 4.12443C14.0044 2.93777 13.0622 1.99554 11.8755 1.29777C10.6874 0.599988 9.39554 0.251099 7.99999 0.251099ZM11.6244 8.7511L6.12443 11.9067C5.87554 12.0518 5.62591 12.0518 5.37554 11.9067C5.12517 11.76 4.99999 11.5415 4.99999 11.2511V4.7511C4.99999 4.45925 5.12517 4.23999 5.37554 4.09332C5.62591 3.94814 5.87554 3.94814 6.12443 4.09332L11.6244 7.43777C11.8748 7.58295 12 7.80147 12 8.09332C12 8.38517 11.8748 8.60443 11.6244 8.7511Z" fill="#111111"/>
+                    </svg>
+                    <p className="leading-[24px] text-[16px] font-[400] text-black-color">Watch Now</p>
+                </div>
+                <div className="bg-[#56565B] flex items-center gap-2 py-[12px] px-[17px] rounded-[30px] border-[1px] border-[#56565B]">
+                    <p className="leading-[24px] text-[16px] font-[400] text-white-color">Detail</p>
+                    <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.23438 5.53111L1.98549 9.78222C1.83882 9.92741 1.66105 10 1.45216 10C1.24475 10 1.06771 9.92741 0.921046 9.78222L0.234379 9.06222C0.0891942 8.91704 0.0166016 8.74 0.0166016 8.53111C0.0166016 8.32222 0.0891942 8.14519 0.234379 8L3.23438 5L0.234379 2C0.0891942 1.85481 0.0166016 1.67778 0.0166016 1.46889C0.0166016 1.26 0.0891942 1.08296 0.234379 0.937778L0.921046 0.217778C1.06771 0.0725925 1.24475 0 1.45216 0C1.66105 0 1.83882 0.0725925 1.98549 0.217778L6.23438 4.46889C6.37956 4.61407 6.45216 4.79111 6.45216 5C6.45216 5.20889 6.37956 5.38593 6.23438 5.53111Z" fill="white"/>
+                    </svg>
+                </div>
+                </div>
             </div>
             <div>
-                <Image width={1132} height={536} src="https://via.placeholder.com/1135x536"/>
+            <div className="relative...">
+                <Image width={1132} height={536} src="/image 1.png"/>
+            </div>
+            <div className="absolute left-[1690px] top-[541px]  ...">
+                <div className="px-[16px] py-[14px] bg-[#FFFFFF1A] rounded-[6px] mb-[6px]">
+                    <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.375 6.5975L2.59501 11.38C2.43001 11.5433 2.23 11.625 1.995 11.625C1.76167 11.625 1.5625 11.5433 1.3975 11.38L0.625005 10.57C0.461672 10.4067 0.380005 10.2075 0.380005 9.9725C0.380005 9.7375 0.461672 9.53833 0.625005 9.375L4 6L0.625005 2.625C0.461672 2.46167 0.380005 2.2625 0.380005 2.0275C0.380005 1.7925 0.461672 1.59333 0.625005 1.43L1.3975 0.62C1.5625 0.456667 1.76167 0.375 1.995 0.375C2.23 0.375 2.43001 0.456667 2.59501 0.62L7.375 5.4025C7.53834 5.56583 7.62 5.765 7.62 6C7.62 6.235 7.53834 6.43417 7.375 6.5975Z" fill="white"/>
+                    </svg>
+                </div>
+                <div className="px-[16px] py-[14px] bg-[#FFFFFF1A]  rounded-[6px]">
+                    <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.625005 5.4025L5.4075 0.62C5.57084 0.456667 5.77 0.375 6.005 0.375C6.23834 0.375 6.4375 0.456667 6.6025 0.62L7.375 1.43C7.53834 1.59333 7.62 1.7925 7.62 2.0275C7.62 2.2625 7.53834 2.45 7.375 2.59L4 6L7.375 9.375C7.53834 9.53833 7.62 9.7375 7.62 9.9725C7.62 10.2075 7.53834 10.4067 7.375 10.57L6.6025 11.38C6.4375 11.5433 6.23834 11.625 6.005 11.625C5.77 11.625 5.57084 11.5433 5.4075 11.38L0.625005 6.5975C0.461672 6.43417 0.380005 6.235 0.380005 6C0.380005 5.765 0.461672 5.56583 0.625005 5.4025Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
             </div>
         </div>
     )
 }
+
