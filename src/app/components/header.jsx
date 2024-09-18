@@ -9,7 +9,7 @@ export const Header = () => {
     return (
         <header>
             <div className="flex  bg-[#242428] py-[19px] w-[1440px] h-[70px]  items-center justify-center mx-auto">
-                <div className='flex justify-around'>
+                <div className='flex '>
                 <div className='flex gap-[19px]'>
                 <div>
                     <a href="#">

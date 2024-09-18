@@ -3,7 +3,7 @@ import Image from "next/image"
 export const SwiperSlide = () => {
     return (
         <div className="flex justify-end w-[1440px] mx-auto mt-[19px]">
-            <div className="absolute top-[270px] left-[350px] ...">
+            <div className="absolute top-[270px] left-[350px] ">
                 <p className="text-prime-color leading-[23px] text-[18px] font-normal mb-[19px]">#5 Spotlight</p>
                 <p className="text-white-color leading-[62px] text-[48px] font-bold mb-[24px]">Pseudo Harem</p>
                 <div className="flex gap-[9px] items-center mb-[24px]">
@@ -66,7 +66,7 @@ export const SwiperSlide = () => {
             <div className="relative...">
                 <Image width={1132} height={536} src="/image 1.png"/>
             </div>
-            <div className="absolute left-[1690px] top-[541px]  ...">
+            <div className="absolute left-[1690px] top-[541px]">
                 <div className="px-[16px] py-[14px] bg-[#FFFFFF1A] rounded-[6px] mb-[6px]">
                     <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.375 6.5975L2.59501 11.38C2.43001 11.5433 2.23 11.625 1.995 11.625C1.76167 11.625 1.5625 11.5433 1.3975 11.38L0.625005 10.57C0.461672 10.4067 0.380005 10.2075 0.380005 9.9725C0.380005 9.7375 0.461672 9.53833 0.625005 9.375L4 6L0.625005 2.625C0.461672 2.46167 0.380005 2.2625 0.380005 2.0275C0.380005 1.7925 0.461672 1.59333 0.625005 1.43L1.3975 0.62C1.5625 0.456667 1.76167 0.375 1.995 0.375C2.23 0.375 2.43001 0.456667 2.59501 0.62L7.375 5.4025C7.53834 5.56583 7.62 5.765 7.62 6C7.62 6.235 7.53834 6.43417 7.375 6.5975Z" fill="white"/>

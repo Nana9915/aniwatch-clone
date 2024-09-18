@@ -5,3 +5,7 @@
 html {
     background-color: #242428;
 }
+.rotate-text {
+    writing-mode: vertical-lr;
+    transform: scale(-1, -1);
+}
